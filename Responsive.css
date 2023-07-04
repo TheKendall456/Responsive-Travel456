@@ -1,0 +1,33 @@
+@media screen and (max-width:1200px){
+body{
+    font-size: .75em;
+    font-family: "Times New Roman", Times, serif;
+}
+.p-container{
+    padding: 2px;
+}
+
+}
+
+@media screen and (max-width:750px){
+    #Image1,
+    #Image2{
+        display: none;
+    }
+    #gallery{
+        padding-top: 0px;
+    }
+}
+
+@media screen  and (max-width:500px){
+    header, .contianer{
+    position: relative;
+    bottom: auto;
+    }
+    
+    footer {
+        position: relative;
+        top: auto;
+      }
+  
+}
